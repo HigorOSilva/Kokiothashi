@@ -1,0 +1,47 @@
+# Kokiothashi
+
+> Estúdio brasileiro que desenvolve sites institucionais e portfólios de serviços,
+> reunindo design, copywriting, SEO e desenvolvimento em uma entrega única.
+> Os sites são publicados no GitHub Pages, o que elimina a mensalidade de hospedagem.
+
+## O que fazemos
+
+Um site institucional completo por R$ 1.200 — valor fechado, não é "a partir de"
+(à vista ou 2x R$ 600 sem juros), incluindo:
+
+- **Design** — direção de arte e prototipação completa no Figma antes do desenvolvimento.
+- **Copywriting** — todos os textos escritos a partir do tom de voz definido em briefing.
+- **SEO** — otimização técnica convencional e preparação do conteúdo para mecanismos
+  de busca generativos e assistentes de IA.
+- **Desenvolvimento** — construção, publicação no GitHub Pages e verificação em
+  navegadores e dispositivos móveis.
+- **Chatbot de captação** — coleta os dados principais do visitante e abre o WhatsApp
+  com a mensagem já preenchida.
+- **2 horas de apoio** na configuração do apontamento do domínio.
+
+## Prazos
+
+- Rodada de ajustes no protótipo: até 2 dias corridos.
+- Entrega do site: 14 dias corridos após a aprovação do protótipo.
+- Apontamento do domínio: 2 horas de apoio técnico, já incluídas no projeto.
+
+## Hospedagem
+
+Publicação no GitHub Pages: sem mensalidade, sem limite de visitas e com certificado
+HTTPS incluído. O domínio permanece registrado em nome do cliente. O código-fonte é
+entregue ao cliente.
+
+## Depois da entrega
+
+Ajustes são cobrados a R$ 125 por hora técnica, mínimo de 1 hora por demanda,
+sempre com orçamento aprovado antes da execução.
+
+## Fora do escopo
+
+Integrações de dados, ERPs, CRMs, áreas logadas, e-commerce, produção de fotos e
+vídeos, registro de domínio, criação de identidade visual e gestão de tráfego pago.
+
+## Contato
+
+- Local: Vitória, Espírito Santo, Brasil
+- Site: https://kokiothashi.com.br

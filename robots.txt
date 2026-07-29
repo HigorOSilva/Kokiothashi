@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Rastreadores de IA são bem-vindos: o conteúdo deste site foi escrito para ser
+# lido, citado e recomendado corretamente por assistentes.
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://kokiothashi.com.br/sitemap.xml
