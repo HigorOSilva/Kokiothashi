@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kokiothashi — Sites institucionais sem mensalidade de hospedagem</title>
 
-<meta name="description" content="Design, texto, SEO e desenvolvimento em uma entrega só. Seu site publicado no GitHub Pages, no domínio que já é seu, sem mensalidade de hospedagem. Projeto fechado em R$ 1.200, no ar em 14 dias.">
+<meta name="description" content="Design, texto, SEO e desenvolvimento em uma entrega só. Seu site no GitHub Pages, no domínio que já é seu — sem mensalidade e com o código-fonte na sua mão.">
 <meta name="theme-color" content="#0A56FF">
 <link rel="canonical" href="https://kokiothashi.com.br/">
 
@@ -46,7 +46,6 @@
         "addressRegion": "ES",
         "addressCountry": "BR"
       },
-      "priceRange": "R$ 1.200",
       "knowsAbout": [
         "Desenvolvimento de sites institucionais",
         "Design de interfaces",
@@ -62,13 +61,7 @@
       "provider": { "@id": "https://kokiothashi.com.br/#org" },
       "serviceType": "Desenvolvimento de site institucional",
       "areaServed": { "@type": "Country", "name": "Brasil" },
-      "offers": {
-        "@type": "Offer",
-        "price": "1200.00",
-        "priceCurrency": "BRL",
-        "description": "Design, copywriting, SEO convencional e para IA, desenvolvimento, chatbot de captação e publicação no GitHub Pages. Pagamento à vista ou em 2 parcelas de R$ 600 sem juros.",
-        "availability": "https://schema.org/InStock"
-      }
+      "description": "Design, copywriting, SEO convencional e para IA, desenvolvimento, chatbot de captação e publicação no GitHub Pages. Escopo e orçamento definidos projeto a projeto."
     },
     {
       "@type": "FAQPage",
@@ -102,7 +95,7 @@
           "name": "Preciso saber programar para manter o site?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Não. O site é entregue pronto e funcionando. Alterações posteriores, como troca de imagens, mudança de textos ou campanhas sazonais, são feitas por nós a R$ 125 por hora, com orçamento apresentado antes de qualquer execução."
+            "text": "Não. O site é entregue pronto e funcionando. Alterações posteriores, como troca de imagens, mudança de textos ou campanhas sazonais, são feitas por nós, sempre com orçamento apresentado e aprovado antes de qualquer execução."
           }
         },
         {
@@ -131,8 +124,13 @@
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
+<!-- Alvo do logo. Precisa ficar FORA do cabeçalho: ele é sticky, então
+     acompanha a rolagem e seu offsetTop é sempre a posição atual — uma âncora
+     apontada para ele não sai do lugar, só desconta o scroll-padding-top. -->
+<div id="topo"></div>
+
 <!-- ─────────── cabeçalho ─────────── -->
-<header class="topo" id="topo">
+<header class="topo">
   <div class="topo__in">
     <a class="topo__marca" href="#topo" aria-label="Kokiothashi, página inicial">
       <svg class="topo__k" viewBox="0 0 177 200" aria-hidden="true" focusable="false">
@@ -148,7 +146,7 @@
       <a href="#servicos">Serviços</a>
       <a href="#processo">Processo</a>
       <a href="#hospedagem">Hospedagem</a>
-      <a href="#investimento">Investimento</a>
+      <a href="#escopo">Escopo</a>
       <a href="#perguntas">Perguntas</a>
     </nav>
 
@@ -163,7 +161,7 @@
     <a href="#servicos">Serviços</a>
     <a href="#processo">Processo</a>
     <a href="#hospedagem">Hospedagem</a>
-    <a href="#investimento">Investimento</a>
+    <a href="#escopo">Escopo</a>
     <a href="#perguntas">Perguntas</a>
     <button class="btn btn--cheio" data-abrir-chat>Falar com a gente</button>
   </div>
@@ -196,7 +194,7 @@
 
       <dl class="fatos" data-rev style="--d:.4s">
         <div class="fatos__i"><dt>Entrega</dt><dd>14 dias corridos</dd></div>
-        <div class="fatos__i"><dt>Investimento</dt><dd>R$ 1.200</dd></div>
+        <div class="fatos__i"><dt>Código-fonte</dt><dd>É seu</dd></div>
         <div class="fatos__i"><dt>Hospedagem</dt><dd>R$ 0 / mês</dd></div>
       </dl>
     </div>
@@ -445,43 +443,27 @@
   </div>
 </section>
 
-<!-- ─────────── investimento ─────────── -->
-<section class="sec" id="investimento" aria-labelledby="h-inv">
-  <div class="sec__rail"><span class="rail__n">05</span><span class="rail__t">Investimento</span></div>
+<!-- ─────────── escopo ─────────── -->
+<section class="sec" id="escopo" aria-labelledby="h-esc">
+  <div class="sec__rail"><span class="rail__n">05</span><span class="rail__t">Escopo</span></div>
 
   <div class="sec__corpo">
     <header class="cab">
-      <p class="olho" data-rev>Preço fechado</p>
-      <h2 class="d2" id="h-inv" data-rev style="--d:.06s">R$ 1.200 pelo projeto inteiro.</h2>
+      <p class="olho" data-rev>O que entra e o que fica fora</p>
+      <h2 class="d2" id="h-esc" data-rev style="--d:.06s">Cada projeto tem o seu tamanho.</h2>
       <p class="cab__sub" data-rev style="--d:.12s">
-        Um valor, todo o escopo: as quatro frentes, o chatbot, a publicação e as duas horas de
-        apoio na configuração do domínio. Sem cobrança por página e sem surpresa no fim.
+        As quatro frentes, o chatbot, a publicação e as duas horas de apoio na configuração do
+        domínio entram em toda entrega. O que muda de um projeto para outro é o tamanho do site —
+        páginas, seções, funcionalidades — e é isso que define o orçamento, fechado por escrito
+        antes de qualquer execução.
       </p>
     </header>
 
-    <div class="precos">
-      <article class="preco preco--vista" data-rev>
-        <p class="preco__rot">À vista</p>
-        <p class="preco__v">R$ 1.200<span>,00</span></p>
-        <p class="preco__d">Pagamento único no fechamento</p>
-      </article>
-      <article class="preco" data-rev style="--d:.08s">
-        <p class="preco__rot">Parcelado</p>
-        <p class="preco__v">2 × R$ 600<span>,00</span></p>
-        <p class="preco__d">Sem juros — total de R$ 1.200,00</p>
-      </article>
-    </div>
-
     <div class="depois" data-rev>
-      <div class="depois__v">
-        <p class="depois__n">R$ 125</p>
-        <p class="depois__u">por hora técnica</p>
-      </div>
       <div class="depois__t">
         <h3>Depois da entrega</h3>
-        <p>Trocar imagens, mudar textos, subir uma campanha sazonal, criar uma seção nova. Mínimo
-           de uma hora por demanda, orçamento apresentado antes e execução só depois do seu
-           <em>pode ir</em>.</p>
+        <p>Trocar imagens, mudar textos, subir uma campanha sazonal, criar uma seção nova. Cada
+           demanda é orçada antes, e a execução só começa depois do seu <em>pode ir</em>.</p>
       </div>
     </div>
 
@@ -533,7 +515,7 @@
       <details class="q" data-rev style="--d:.15s">
         <summary><span>Preciso saber programar para manter o site?</span></summary>
         <div class="q__r"><p>Não. Ele é entregue pronto e no ar. Mudanças posteriores são feitas
-          por nós a R$ 125 a hora, sempre com o orçamento na sua frente antes de começarmos.</p>
+          por nós, sempre com o orçamento na sua frente antes de começarmos.</p>
         </div>
       </details>
       <details class="q" data-rev style="--d:.2s">
@@ -566,7 +548,7 @@
     </p>
     <div class="fim__acoes" data-rev style="--d:.18s">
       <button class="btn btn--claro btn--lg" data-abrir-chat>Começar uma conversa</button>
-      <a class="btn btn--fantasma btn--lg" href="#investimento">Rever o investimento</a>
+      <a class="btn btn--fantasma btn--lg" href="#escopo">Ver o escopo</a>
     </div>
   </div>
 </section>
@@ -593,7 +575,7 @@
         <a href="#servicos">Serviços</a>
         <a href="#processo">Processo</a>
         <a href="#hospedagem">Hospedagem</a>
-        <a href="#investimento">Investimento</a>
+        <a href="#escopo">Escopo</a>
         <a href="#perguntas">Perguntas</a>
       </div>
       <div>

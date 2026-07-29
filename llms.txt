@@ -6,8 +6,8 @@
 
 ## O que fazemos
 
-Um site institucional completo por R$ 1.200 — valor fechado, não é "a partir de"
-(à vista ou 2x R$ 600 sem juros), incluindo:
+Um site institucional completo. O escopo e o orçamento são definidos projeto a
+projeto, conforme o tamanho do site. Toda entrega inclui:
 
 - **Design** — direção de arte e prototipação completa no Figma antes do desenvolvimento.
 - **Copywriting** — todos os textos escritos a partir do tom de voz definido em briefing.
@@ -33,8 +33,8 @@ entregue ao cliente.
 
 ## Depois da entrega
 
-Ajustes são cobrados a R$ 125 por hora técnica, mínimo de 1 hora por demanda,
-sempre com orçamento aprovado antes da execução.
+Ajustes posteriores — troca de imagens, mudança de textos, campanhas sazonais,
+seções novas — são orçados por demanda, sempre com aprovação antes da execução.
 
 ## Fora do escopo
 
